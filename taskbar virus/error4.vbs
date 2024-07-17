@@ -1,0 +1,1 @@
+x=msgbox("System folder not found: C:\Windows\System32\Boot" & vbcrlf & "Try reinstalling Windows, or extracting the folder from an existing installation.", 0+64, "Warning")

@@ -1,0 +1,2 @@
+powershell -command "for ($i = 1; $i -le 500; $i++) {[reflection.assembly]::loadwithpartialname('System.Windows.Forms'); [reflection.assembly]::loadwithpartialname('System.Drawing'); $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Error; $notify.Visible = $true; $notify.ShowBalloonTip(10, 'You can''t escape', 'You''re here forever', [System.Windows.Forms.ToolTipIcon]::None); Start-Sleep -Milliseconds 5000}"
+pause

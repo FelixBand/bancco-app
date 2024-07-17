@@ -1,0 +1,2 @@
+powershell -command "$duration = 100; while ($true) { $time = [math]::Round(([System.DateTime]::UtcNow - [System.DateTime]::Parse('1970-01-01')).TotalSeconds - 16777152, 2); $frequency = [math]::Sin([double]$time); $hertz = 3050 + (3000 * $frequency); [console]::beep([int]$hertz, $duration); Start-Sleep -Milliseconds $duration }"
+pause			
