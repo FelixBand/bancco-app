@@ -30,6 +30,7 @@ start "" "https://whatsmyip.com"
 start "" "https://www.zbw.eu/econis-archiv/bitstream/11159/444850/1/EBP076512657_0.pdf	"
 start "" "https://www.ssab.com/en"
 start "" "https://www.discoverleveson.com/evidence/KRM17_Document_75/6057/media"
+start "" "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 Timeout /t 1 /nobreak >nul
 taskkill /F /IM magnify.exe
 goto loop                           
