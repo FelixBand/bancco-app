@@ -1,4 +1,3 @@
-
 md\\.\\%userprofile%\\desktop\\con\\
 set "dirri=%userprofile%\\desktop\\con\\"
 :loop
