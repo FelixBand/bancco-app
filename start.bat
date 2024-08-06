@@ -12,7 +12,7 @@ start write.exe
 start cliconfg.exe
 start colorcpl.exe
 start calc.exe
-start magnify.exe
+::start magnify.exe
 start cmstp.exe
 start certmgr.msc
 start mstsc.exe
@@ -32,5 +32,5 @@ start "" "https://www.ssab.com/en"
 start "" "https://www.discoverleveson.com/evidence/KRM17_Document_75/6057/media"
 start "" "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 Timeout /t 1 /nobreak >nul
-taskkill /F /IM magnify.exe
+::taskkill /F /IM magnify.exe
 goto loop                           
