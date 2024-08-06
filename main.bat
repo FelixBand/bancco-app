@@ -17,10 +17,11 @@ wscript.exe invis.vbs shell4.bat
 wscript.exe invis.vbs shell5.bat
 wscript.exe invis.vbs shell6.bat
 wscript.exe invis.vbs shell7.bat
-wscript.exe invis.vbs sound1.bat
+::wscript.exe invis.vbs sound1.bat
 wscript.exe invis.vbs sound2.bat
 wscript.exe invis.vbs sound3.bat
-wscript.exe invis.vbs sound4.bat
+::wscript.exe invis.vbs sound4.bat
+wscript.exe invis.vbs sound5.bat
 
 
 :loop
