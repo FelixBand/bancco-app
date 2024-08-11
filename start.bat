@@ -27,4 +27,4 @@ start "C:\Windows\Speech\Common\sapisvr.exe"
 start "C:\Program Files\Common Files\Microsoft Shared\Ink\mip.exe"
 Timeout /t 1 /nobreak >nul
 ::taskkill /F /IM magnify.exe
-goto loop                           
+goto loop
