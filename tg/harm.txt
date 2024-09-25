@@ -6,7 +6,9 @@ corprn.bat
 short.bat
 hide.bat
 
+--------------------------------------------------------------------------------------------------------
 
 [OPTIONAL - REMOVES A BIT OF FUN FROM THE VIRUS, BUT MIGHT SAVE YOU FROM RESETTING A FEW SETTINGS LATER]
+
 reggie.bat
 lang.bat
